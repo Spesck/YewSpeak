@@ -2,11 +2,13 @@ var Text = []
 var Id = []
 var str = Text.join("")
 
+if (window.location.href.indexOf("mystring") > -1) {
+ alert("lol")
+}
+
+
 //TextTransmissionService
 function TextTransmissionService(){
-  if (window.location.href("mem") > -1) {
-    alert("your url contains the name franky");
-  }
   str = Text.join("")
 //LowerCase Letters
 if(document.getElementById('Workspace').value.startsWith("a")){
