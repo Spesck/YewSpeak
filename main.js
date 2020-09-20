@@ -1,9 +1,13 @@
 var Text = []
 var Id = []
 var str = Text.join("")
+
+
 if (window.location.search.includes("mem")) {
  alert("lol")
 }
+
+alert(window.location.search)
 
 
 //TextTransmissionService
