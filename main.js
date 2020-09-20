@@ -1,8 +1,7 @@
 var Text = []
 var Id = []
 var str = Text.join("")
-
-if (window.location.href.indexOf("mystring") > -1) {
+if (window.location.search.includes("mem")) {
  alert("lol")
 }
 
