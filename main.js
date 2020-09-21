@@ -1,13 +1,269 @@
 var Text = []
 var Id = []
 var str = Text.join("")
+var UnpackMessage = window.location.search.substring(1)
+var LoadMessage = ""
 
 
-if (window.location.search.includes("mem")) {
- alert("lol")
+Test()
+function Test(){
+
+  if(UnpackMessage.startsWith("1q")){
+  LoadMessage = LoadMessage + "a"
+  }
+  if(UnpackMessage.startsWith("2q")){
+    LoadMessage = LoadMessage + "b"
+    }
+  if(UnpackMessage.startsWith("3q")){
+    LoadMessage = LoadMessage + "c"
+  }
+  if(UnpackMessage.startsWith("4m")){
+    LoadMessage = LoadMessage + "d"
+    }
+    if(UnpackMessage.startsWith("5m")){
+      LoadMessage = LoadMessage + "e"
+      }
+    if(UnpackMessage.startsWith("6m")){
+      LoadMessage = LoadMessage + "f"
+    }
+    if(UnpackMessage.startsWith("7d")){
+      LoadMessage = LoadMessage + "g"
+      }
+      if(UnpackMessage.startsWith("8d")){
+        LoadMessage = LoadMessage + "h"
+        }
+      if(UnpackMessage.startsWith("9d")){
+        LoadMessage = LoadMessage + "i"
+      }
+      if(UnpackMessage.startsWith("a%")){
+        LoadMessage = LoadMessage + "j"
+      }
+      if(UnpackMessage.startsWith("b%")){
+        LoadMessage = LoadMessage + "k"
+      }
+      if(UnpackMessage.startsWith("c%")){
+        LoadMessage = LoadMessage + "l"
+      }
+      if(UnpackMessage.startsWith("d%")){
+        LoadMessage = LoadMessage + "m"
+      }
+      if(UnpackMessage.startsWith("e%")){
+        LoadMessage = LoadMessage + "n"
+      }
+      if(UnpackMessage.startsWith("f%")){
+        LoadMessage = LoadMessage + "o"
+      }
+      if(UnpackMessage.startsWith("g%")){
+        LoadMessage = LoadMessage + "p"
+      }
+      if(UnpackMessage.startsWith("h%")){
+        LoadMessage = LoadMessage + "q"
+      }
+      if(UnpackMessage.startsWith("i%")){
+        LoadMessage = LoadMessage + "r"
+      }
+      if(UnpackMessage.startsWith("j%")){
+        LoadMessage = LoadMessage + "s"
+      }
+      if(UnpackMessage.startsWith("k%")){
+        LoadMessage = LoadMessage + "t"
+      }
+      if(UnpackMessage.startsWith("l%")){
+        LoadMessage = LoadMessage + "u"
+      }
+      if(UnpackMessage.startsWith("m%")){
+        LoadMessage = LoadMessage + "v"
+      }
+      if(UnpackMessage.startsWith("n%")){
+        LoadMessage = LoadMessage + "w"
+      }
+      if(UnpackMessage.startsWith("o%")){
+        LoadMessage = LoadMessage + "x"
+      }
+      if(UnpackMessage.startsWith("p%")){
+        LoadMessage = LoadMessage + "y"
+      }
+      if(UnpackMessage.startsWith("q%")){
+        LoadMessage = LoadMessage + "z"
+      }
+
+      if(UnpackMessage.startsWith("1$")){
+        LoadMessage = LoadMessage + "A"
+      }
+      if(UnpackMessage.startsWith("2$")){
+        LoadMessage = LoadMessage + "B"
+      }
+      if(UnpackMessage.startsWith("3$")){
+        LoadMessage = LoadMessage + "C"
+      }
+      if(UnpackMessage.startsWith("4$")){
+        LoadMessage = LoadMessage + "D"
+      }
+      if(UnpackMessage.startsWith("5$")){
+        LoadMessage = LoadMessage + "E"
+      }
+      if(UnpackMessage.startsWith("6$")){
+        LoadMessage = LoadMessage + "F"
+      }
+      if(UnpackMessage.startsWith("7$")){
+        LoadMessage = LoadMessage + "G"
+      }
+      if(UnpackMessage.startsWith("8$")){
+        LoadMessage = LoadMessage + "H"
+      }
+      if(UnpackMessage.startsWith("9$")){
+        LoadMessage = LoadMessage + "I"
+      }
+      if(UnpackMessage.startsWith("10&")){
+        LoadMessage = LoadMessage + "J"
+      }
+      if(UnpackMessage.startsWith("11&")){
+        LoadMessage = LoadMessage + "K"
+      }
+      if(UnpackMessage.startsWith("12&")){
+        LoadMessage = LoadMessage + "L"
+      }
+      if(UnpackMessage.startsWith("13&")){
+        LoadMessage = LoadMessage + "M"
+      }
+      if(UnpackMessage.startsWith("14&")){
+        LoadMessage = LoadMessage + "N"
+      }
+      if(UnpackMessage.startsWith("15&")){
+        LoadMessage = LoadMessage + "O"
+      }
+      if(UnpackMessage.startsWith("16&")){
+        LoadMessage = LoadMessage + "P"
+      }
+      if(UnpackMessage.startsWith("17&")){
+        LoadMessage = LoadMessage + "Q"
+      }
+      if(UnpackMessage.startsWith("18&")){
+        LoadMessage = LoadMessage + "R"
+      }
+      if(UnpackMessage.startsWith("19&")){
+        LoadMessage = LoadMessage + "S"
+      }
+      if(UnpackMessage.startsWith("20&")){
+        LoadMessage = LoadMessage + "T"
+      }
+      if(UnpackMessage.startsWith("21&")){
+        LoadMessage = LoadMessage + "U"
+      }
+      if(UnpackMessage.startsWith("22&")){
+        LoadMessage = LoadMessage + "V"
+      }
+      if(UnpackMessage.startsWith("23&")){
+        LoadMessage = LoadMessage + "W"
+      }
+      if(UnpackMessage.startsWith("24&")){
+        LoadMessage = LoadMessage + "X"
+      }
+      if(UnpackMessage.startsWith("25&")){
+        LoadMessage = LoadMessage + "Y"
+      }
+      if(UnpackMessage.startsWith("26&")){
+        LoadMessage = LoadMessage + "Z"
+      }
+
+      if(UnpackMessage.startsWith("1A")){
+        LoadMessage = LoadMessage + " "
+      }
+      if(UnpackMessage.startsWith("2B")){
+        LoadMessage = LoadMessage + "@"
+      }
+      if(UnpackMessage.startsWith("3C")){
+        LoadMessage = LoadMessage + "#"
+      }
+      if(UnpackMessage.startsWith("4D")){
+        LoadMessage = LoadMessage + "$"
+      }
+      if(UnpackMessage.startsWith("5E")){
+        LoadMessage = LoadMessage + "%"
+      }
+      if(UnpackMessage.startsWith("6F")){
+        LoadMessage = LoadMessage + "^"
+      }
+      if(UnpackMessage.startsWith("7G")){
+        LoadMessage = LoadMessage + "&"
+      }
+      if(UnpackMessage.startsWith("8H")){
+        LoadMessage = LoadMessage + "*"
+      }
+      if(UnpackMessage.startsWith("9I")){
+        LoadMessage = LoadMessage + "("
+      }
+      if(UnpackMessage.startsWith("10J")){
+        LoadMessage = LoadMessage + ")"
+      }
+      if(UnpackMessage.startsWith("11K")){
+        LoadMessage = LoadMessage + "_"
+      }
+      if(UnpackMessage.startsWith("12L")){
+        LoadMessage = LoadMessage + "-"
+      }
+      if(UnpackMessage.startsWith("13M")){
+        LoadMessage = LoadMessage + "+"
+      }
+      if(UnpackMessage.startsWith("14N")){
+        LoadMessage = LoadMessage + "="
+      }
+      if(UnpackMessage.startsWith("15O")){
+        LoadMessage = LoadMessage + ";"
+      }
+      if(UnpackMessage.startsWith("16P")){
+        LoadMessage = LoadMessage + ":"
+      }
+      if(UnpackMessage.startsWith("17Q")){
+        LoadMessage = LoadMessage + ","
+      }
+      if(UnpackMessage.startsWith("18R")){
+        LoadMessage = LoadMessage + "/"
+      }
+      if(UnpackMessage.startsWith("19S")){
+        LoadMessage = LoadMessage + "."
+      }
+      if(UnpackMessage.startsWith("20T")){
+        LoadMessage = LoadMessage + "?"
+      }
+      if(UnpackMessage.startsWith("21U")){
+        LoadMessage = LoadMessage + "!"
+      }
+
+      if(UnpackMessage.startsWith("z1")){
+        LoadMessage = LoadMessage + "1"
+      }
+      if(UnpackMessage.startsWith("z2")){
+        LoadMessage = LoadMessage + "2"
+      }
+      if(UnpackMessage.startsWith("z3")){
+        LoadMessage = LoadMessage + "3"
+      }
+      if(UnpackMessage.startsWith("z4")){
+        LoadMessage = LoadMessage + "4"
+      }
+      if(UnpackMessage.startsWith("z5")){
+        LoadMessage = LoadMessage + "5"
+      }
+      if(UnpackMessage.startsWith("z6")){
+        LoadMessage = LoadMessage + "6"
+      }
+      if(UnpackMessage.startsWith("z7")){
+        LoadMessage = LoadMessage + "7"
+      }
+      if(UnpackMessage.startsWith("z8")){
+        LoadMessage = LoadMessage + "8"
+      }
+      if(UnpackMessage.startsWith("z9")){
+        LoadMessage = LoadMessage + "9"
+      }
+      if(UnpackMessage.startsWith("z0")){
+        LoadMessage = LoadMessage + "0"
+      }
+  UnpackMessage = UnpackMessage.substring(1)
+  document.getElementById('Load').innerHTML = LoadMessage
+  setTimeout(Test,0)
 }
-
-alert(window.location.search)
 
 
 //TextTransmissionService
@@ -16,43 +272,43 @@ function TextTransmissionService(){
 //LowerCase Letters
 if(document.getElementById('Workspace').value.startsWith("a")){
  Text.push("a")
- Id.push("1#")
+ Id.push("1q")
 }
 if(document.getElementById('Workspace').value.startsWith("b")){
   Text.push("b")
-  Id.push("2#")
+  Id.push("2q")
  }
  if(document.getElementById('Workspace').value.startsWith("c")){
   Text.push("c")
-  Id.push("3#")
+  Id.push("3q")
  }
  if(document.getElementById('Workspace').value.startsWith("d")){
   Text.push("d")
-  Id.push("4#")
+  Id.push("4m")
  }
  if(document.getElementById('Workspace').value.startsWith("e")){
   Text.push("e")
-  Id.push("5#")
+  Id.push("5m")
  }
  if(document.getElementById('Workspace').value.startsWith("f")){
   Text.push("f")
-  Id.push("6#")
+  Id.push("6m")
  }
  if(document.getElementById('Workspace').value.startsWith("g")){
   Text.push("g")
-  Id.push("7#")
+  Id.push("7d")
  }
  if(document.getElementById('Workspace').value.startsWith("h")){
   Text.push("h")
-  Id.push("8#")
+  Id.push("8d")
  }
  if(document.getElementById('Workspace').value.startsWith("i")){
   Text.push("i")
-  Id.push("9#")
+  Id.push("9d")
  }
  if(document.getElementById('Workspace').value.startsWith("j")){
   Text.push("j")
-  Id.push("a#")
+  Id.push("a%")
  } 
  if(document.getElementById('Workspace').value.startsWith("k")){
   Text.push("k")
@@ -72,7 +328,7 @@ if(document.getElementById('Workspace').value.startsWith("b")){
  }
  if(document.getElementById('Workspace').value.startsWith("o")){
   Text.push("o")
-  Id.push("f#")
+  Id.push("f%")
  }
  if(document.getElementById('Workspace').value.startsWith("p")){
   Text.push("p")
@@ -92,11 +348,11 @@ if(document.getElementById('Workspace').value.startsWith("b")){
  }
  if(document.getElementById('Workspace').value.startsWith("t")){
   Text.push("t")
-  Id.push("k#")
+  Id.push("k%")
  }
  if(document.getElementById('Workspace').value.startsWith("u")){
   Text.push("u")
-  Id.push("l#")
+  Id.push("l%")
  }
  if(document.getElementById('Workspace').value.startsWith("v")){
   Text.push("v")
@@ -108,7 +364,7 @@ if(document.getElementById('Workspace').value.startsWith("b")){
  }
  if(document.getElementById('Workspace').value.startsWith("x")){
   Text.push("x")
-  Id.push("o#")
+  Id.push("o%")
  }
  if(document.getElementById('Workspace').value.startsWith("y")){
   Text.push("y")
@@ -378,9 +634,10 @@ if(document.getElementById('Workspace').value.startsWith("b")){
   Text.push("0")
   Id.push("z0")
  }
-document.getElementById('Url').innerHTML = "Raw Text Data: " + Id.join("")
+document.getElementById('Url').innerHTML = "https://yewspeak.github.io/YewSpeak/?" + Id.join("")
 document.getElementById('Msg').innerHTML = str
 document.getElementById('Workspace').value = document.getElementById('Workspace').value.substring(1)
+
 if (document.getElementById('Workspace').value == ("")){
   TextTransmissionService()
 }
